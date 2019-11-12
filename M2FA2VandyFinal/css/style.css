@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header{
+  background: black;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+/* Footer */
+.footer{
+  width: 100%;
+  height: 40px;
+  background: black;
+  color: white;
+  font-size: 0.5rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  margin-top: 850px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.footIcon{
+  width: 1.2rem;
+  height: 1rem;
+  float: right;
+  margin-left: 0.2rem;
+  margin-right: 0.1rem;
+  margin-top: -0.4rem;
+  cursor: pointer;
+}
+
+.logo{
+  /* top: 40px; */
+  /* margin-top: 55px; */
+  border: 2px solid yellow;
+  width: 3rem;
+  height:3rem;
+}
+
+.row{
+  width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.col1{
+  margin-left: 40px;
+}
+
+
+.alert{
+  width: 50%;
+  height: 30px;
+  text-align: center;
+  padding-top: 3px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.carousel, .carousel-inner{
+  height: 350px;
+
+}
+
+/* Sort */
+
+
+
+.jewel, .bags, .all, .drop, .hoop, .clutch, .hand, .lap, .one, .two {
+  margin: 10px;
+}
+
+/* cards */
+
+.card{
+  width: 10rem;
+  height: 6rem;
+  float: left;
+
+}
+
+.img-thumbnail{
+  width: 18rem;
+  height: 15rem;
+}
+
+/* Contact form */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* cta */
+.btn{
+  cursor: pointer;
+}
+
+/*Universal*/
+.myItems{
+  display: block;
+  margin: auto;
+}
+
+.contact{
+  display: none;
+}
+
+.myModal{
+  background: red;
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+}
+
+.closeBar{
+  font-size: 40px;
+  cursor: pointer;
+}
+
+
+.myFashion{
+width: 300px;
+
+}
